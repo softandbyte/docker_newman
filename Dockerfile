@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:8
 
 # Set newman version 
-ENV NEWMAN_VERSION 4.3.1
+ENV NEWMAN_VERSION 4.5.7
 
 RUN apk update \
     && apk upgrade \
